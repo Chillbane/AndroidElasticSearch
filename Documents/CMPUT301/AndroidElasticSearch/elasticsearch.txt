@@ -1,0 +1,15 @@
+{
+	"id": 19, 
+	"title": "Pacific Rim", 
+	"direction": "del Toro",
+	"year": 2013
+}
+
+// query to find all things with dark in it on elastic search
+{
+	"query": {
+		"query_string": {
+			"query": "dark"
+		}
+	}
+}
